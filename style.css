@@ -117,3 +117,20 @@ section[id],h3[id]{scroll-margin-top:110px}
 @media(max-width:900px){.intro.section{grid-template-columns:1fr;padding-top:42px;padding-bottom:42px;gap:16px}.hero-title{white-space:normal;font-size:clamp(46px,7.2vw,75px)}}
 @media(max-width:600px){.hero-title{line-height:.98;letter-spacing:-.035em}.hero-name-first{display:block;white-space:nowrap;font-size:clamp(31px,8.2vw,51px)}.hero-name-last{display:block;font-size:clamp(73px,21vw,126px);margin-top:5px}.intro h2{font-size:clamp(31px,8vw,45px)}.intro p{font-size:17px}.menu-tabs button{font-size:14px;padding:12px 13px}}
 @media(prefers-reduced-motion:reduce){.hero::before{transform:scale(1.12)!important;will-change:auto}}
+
+/* V5: monochrome identity, light menu cards and category photography */
+.pizza-logo{color:#b95056}
+.pizza-logo path,.pizza-logo circle{fill:none!important;stroke:currentColor!important}
+.hero-name-first{color:#fffaf0!important}
+.hero-name-last{color:#d98b90!important}
+.menu-display{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(220px,.7fr);gap:0;position:relative;align-items:stretch;min-height:340px}
+.menu-display .menu-grid{grid-template-columns:1fr;gap:12px;position:relative;z-index:2}
+.menu-display .menu-item{background:#fffaf0;border:1px solid #e6ddcd;border-left:4px solid #b95056;color:#203b2b;border-radius:4px;padding:19px 21px;box-shadow:0 3px 12px #122c1a15}
+.menu-display .menu-item p{color:#435b49}
+.menu-display .menu-item .price{color:#a93e49}
+.menu-visual{position:relative;min-height:380px;background-color:var(--deep);background-size:cover;background-position:center;transition:background-image .2s ease;isolation:isolate}
+.menu-visual-fade{position:absolute;inset:0;background:linear-gradient(90deg,var(--deep) 0%,rgba(37,76,54,.20) 40%,rgba(37,76,54,0) 75%),linear-gradient(0deg,var(--deep) 0%,transparent 22%,transparent 80%,var(--deep) 100%);pointer-events:none}
+.menu-section .section-heading{margin-bottom:22px}
+.optional-section[hidden]{display:none!important}
+@media(max-width:900px){.menu-display{grid-template-columns:minmax(0,1fr) 35%}.menu-visual{min-height:300px}}
+@media(max-width:650px){.menu-display{display:flex;flex-direction:column-reverse}.menu-visual{height:210px;min-height:210px;background-position:center 50%}.menu-visual-fade{background:linear-gradient(0deg,var(--deep),transparent 45%),linear-gradient(90deg,var(--deep),transparent 22%,transparent 80%,var(--deep))}.menu-display .menu-grid{margin-top:8px}}
