@@ -34,6 +34,41 @@
       ]
     },
     {
+      "category": "Specialty Pizzas",
+      "items": [
+        {
+          "name": "The Works",
+          "description": "Pepperoni, sausage, mushrooms, onions, peppers.",
+          "price": "$20.99"
+        },
+        {
+          "name": "Buffalo Chicken",
+          "description": "Buffalo chicken, mozzarella, ranch drizzle.",
+          "price": "$19.99"
+        },
+        {
+          "name": "BBQ Chicken",
+          "description": "BBQ sauce, chicken, red onion, mozzarella.",
+          "price": "$19.99"
+        }
+      ]
+    },
+    {
+      "category": "Calzones",
+      "items": [
+        {
+          "name": "Cheese Calzone",
+          "description": "Ricotta and mozzarella with marinara on the side.",
+          "price": "$12.99"
+        },
+        {
+          "name": "Steak Bomb Calzone",
+          "description": "Steak, onions, peppers, mushrooms and cheese.",
+          "price": "$17.99"
+        }
+      ]
+    },
+    {
       "category": "Subs",
       "items": [
         {
@@ -55,6 +90,51 @@
           "name": "Meatball Sub",
           "description": "Homestyle meatballs, marinara, melted cheese.",
           "price": "$11.99"
+        }
+      ]
+    },
+    {
+      "category": "Wraps",
+      "items": [
+        {
+          "name": "Chicken Caesar Wrap",
+          "description": "Grilled chicken, romaine, parmesan, Caesar dressing.",
+          "price": "$11.99"
+        },
+        {
+          "name": "Turkey Club Wrap",
+          "description": "Turkey, bacon, lettuce, tomato and mayo.",
+          "price": "$11.99"
+        }
+      ]
+    },
+    {
+      "category": "Salads",
+      "items": [
+        {
+          "name": "Greek Salad",
+          "description": "Feta, olives, cucumber, tomatoes, mixed greens.",
+          "price": "$11.99"
+        },
+        {
+          "name": "Grilled Chicken Salad",
+          "description": "Seasonal greens with grilled chicken.",
+          "price": "$13.99"
+        }
+      ]
+    },
+    {
+      "category": "Appetizers",
+      "items": [
+        {
+          "name": "Chicken Wings",
+          "description": "Classic wings with your choice of sauce.",
+          "price": "$12.99"
+        },
+        {
+          "name": "French Fries",
+          "description": "Hot and crispy.",
+          "price": "$4.99"
         }
       ]
     },
@@ -93,5 +173,6 @@
         }
       ]
     }
-  ]
+  ],
+  "giftCardUrl": ""
 }
