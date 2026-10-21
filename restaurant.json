@@ -14,22 +14,62 @@
         {
           "name": "Classic Cheese",
           "description": "Red sauce, whole-milk mozzarella, golden crust.",
-          "price": "$13.99"
+          "price": "$13.99",
+          "options": [
+            {
+              "label": "Small",
+              "price": 10.99
+            },
+            {
+              "label": "Large",
+              "price": 13.99
+            }
+          ]
         },
         {
           "name": "The Pepperoni",
           "description": "Classic cheese pie piled with pepperoni.",
-          "price": "$16.99"
+          "price": "$16.99",
+          "options": [
+            {
+              "label": "Small",
+              "price": 13.99
+            },
+            {
+              "label": "Large",
+              "price": 16.99
+            }
+          ]
         },
         {
           "name": "The New Englander",
           "description": "Sausage, peppers, onions, and mozzarella.",
-          "price": "$18.99"
+          "price": "$18.99",
+          "options": [
+            {
+              "label": "Small",
+              "price": 15.99
+            },
+            {
+              "label": "Large",
+              "price": 18.99
+            }
+          ]
         },
         {
           "name": "Garden Special",
           "description": "Mushrooms, onions, peppers, olives, and tomatoes.",
-          "price": "$18.99"
+          "price": "$18.99",
+          "options": [
+            {
+              "label": "Small",
+              "price": 15.99
+            },
+            {
+              "label": "Large",
+              "price": 18.99
+            }
+          ]
         }
       ]
     },
@@ -39,17 +79,47 @@
         {
           "name": "The Works",
           "description": "Pepperoni, sausage, mushrooms, onions, peppers.",
-          "price": "$20.99"
+          "price": "$20.99",
+          "options": [
+            {
+              "label": "Small",
+              "price": 17.99
+            },
+            {
+              "label": "Large",
+              "price": 20.99
+            }
+          ]
         },
         {
           "name": "Buffalo Chicken",
           "description": "Buffalo chicken, mozzarella, ranch drizzle.",
-          "price": "$19.99"
+          "price": "$19.99",
+          "options": [
+            {
+              "label": "Small",
+              "price": 16.99
+            },
+            {
+              "label": "Large",
+              "price": 19.99
+            }
+          ]
         },
         {
           "name": "BBQ Chicken",
           "description": "BBQ sauce, chicken, red onion, mozzarella.",
-          "price": "$19.99"
+          "price": "$19.99",
+          "options": [
+            {
+              "label": "Small",
+              "price": 16.99
+            },
+            {
+              "label": "Large",
+              "price": 19.99
+            }
+          ]
         }
       ]
     },
@@ -59,12 +129,24 @@
         {
           "name": "Cheese Calzone",
           "description": "Ricotta and mozzarella with marinara on the side.",
-          "price": "$12.99"
+          "price": "$12.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 12.99
+            }
+          ]
         },
         {
           "name": "Steak Bomb Calzone",
           "description": "Steak, onions, peppers, mushrooms and cheese.",
-          "price": "$17.99"
+          "price": "$17.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 17.99
+            }
+          ]
         }
       ]
     },
@@ -74,22 +156,62 @@
         {
           "name": "Steak & Cheese",
           "description": "Griddled steak, melted cheese, toasted roll.",
-          "price": "$12.99"
+          "price": "$12.99",
+          "options": [
+            {
+              "label": "Half",
+              "price": 7.79
+            },
+            {
+              "label": "Whole",
+              "price": 12.99
+            }
+          ]
         },
         {
           "name": "Italian Cold Cut",
           "description": "Salami, ham, provolone, lettuce, tomato, and dressing.",
-          "price": "$11.99"
+          "price": "$11.99",
+          "options": [
+            {
+              "label": "Half",
+              "price": 7.19
+            },
+            {
+              "label": "Whole",
+              "price": 11.99
+            }
+          ]
         },
         {
           "name": "Chicken Parm",
           "description": "Crispy chicken, marinara, mozzarella.",
-          "price": "$12.99"
+          "price": "$12.99",
+          "options": [
+            {
+              "label": "Half",
+              "price": 7.79
+            },
+            {
+              "label": "Whole",
+              "price": 12.99
+            }
+          ]
         },
         {
           "name": "Meatball Sub",
           "description": "Homestyle meatballs, marinara, melted cheese.",
-          "price": "$11.99"
+          "price": "$11.99",
+          "options": [
+            {
+              "label": "Half",
+              "price": 7.19
+            },
+            {
+              "label": "Whole",
+              "price": 11.99
+            }
+          ]
         }
       ]
     },
@@ -99,12 +221,24 @@
         {
           "name": "Chicken Caesar Wrap",
           "description": "Grilled chicken, romaine, parmesan, Caesar dressing.",
-          "price": "$11.99"
+          "price": "$11.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 11.99
+            }
+          ]
         },
         {
           "name": "Turkey Club Wrap",
           "description": "Turkey, bacon, lettuce, tomato and mayo.",
-          "price": "$11.99"
+          "price": "$11.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 11.99
+            }
+          ]
         }
       ]
     },
@@ -114,12 +248,24 @@
         {
           "name": "Greek Salad",
           "description": "Feta, olives, cucumber, tomatoes, mixed greens.",
-          "price": "$11.99"
+          "price": "$11.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 11.99
+            }
+          ]
         },
         {
           "name": "Grilled Chicken Salad",
           "description": "Seasonal greens with grilled chicken.",
-          "price": "$13.99"
+          "price": "$13.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 13.99
+            }
+          ]
         }
       ]
     },
@@ -129,12 +275,24 @@
         {
           "name": "Chicken Wings",
           "description": "Classic wings with your choice of sauce.",
-          "price": "$12.99"
+          "price": "$12.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 12.99
+            }
+          ]
         },
         {
           "name": "French Fries",
           "description": "Hot and crispy.",
-          "price": "$4.99"
+          "price": "$4.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 4.99
+            }
+          ]
         }
       ]
     },
@@ -144,17 +302,35 @@
         {
           "name": "Garlic Knots",
           "description": "Warm, buttery, and ready for dipping.",
-          "price": "$6.99"
+          "price": "$6.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 6.99
+            }
+          ]
         },
         {
           "name": "Mozzarella Sticks",
           "description": "Golden and served with marinara.",
-          "price": "$8.99"
+          "price": "$8.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 8.99
+            }
+          ]
         },
         {
           "name": "Garden Salad",
           "description": "Fresh greens and seasonal vegetables.",
-          "price": "$7.99"
+          "price": "$7.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 7.99
+            }
+          ]
         }
       ]
     },
@@ -164,12 +340,24 @@
         {
           "name": "Fountain Soda",
           "description": "Refreshing classics.",
-          "price": "$2.99"
+          "price": "$2.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 2.99
+            }
+          ]
         },
         {
           "name": "Bottled Water",
           "description": "Chilled and ready to go.",
-          "price": "$1.99"
+          "price": "$1.99",
+          "options": [
+            {
+              "label": "Regular",
+              "price": 1.99
+            }
+          ]
         }
       ]
     }
