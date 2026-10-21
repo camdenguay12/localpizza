@@ -150,3 +150,44 @@ section[id],h3[id]{scroll-margin-top:110px}
   section[id],h3[id]{scroll-margin-top:125px}
 }
 @media(max-width:600px){.topline{min-height:38px}.sidebar{top:114px;height:calc(100dvh - 114px)}}
+
+/* V7 — warm yellow, independent red-trimmed menu and Georgia signage */
+:root{--soft-yellow:#fff0c8}
+.hero-title{font-family:Georgia,"Times New Roman",serif;font-weight:900;letter-spacing:-.065em;text-shadow:0 4px 15px rgba(0,0,0,.42)}
+.brand{font-family:Georgia,"Times New Roman",serif;font-weight:900;letter-spacing:-.055em}
+.sidebar{background:var(--soft-yellow);border-right-color:#dfc992}
+.story-card,.visit,.gift-section{background:#fff0c8}
+.header{border-bottom-color:#e5d7b2}
+.menu-section{background:#254c36}
+.menu-frame{background:#fffaf0;border:3px solid #bd7277;border-radius:12px;padding:25px 27px 20px;box-shadow:0 14px 0 #193c2b,0 20px 40px rgba(0,0,0,.15);color:#254c36;margin:30px 0 48px}
+.menu-frame-header{display:flex;justify-content:space-between;align-items:end;gap:18px;border-bottom:1px solid #e7d6c7;padding-bottom:14px}
+.menu-frame-kicker,.menu-frame-label{font-size:12px;font-weight:800;letter-spacing:1.5px;color:#985159}
+.menu-frame-header h3{font:900 clamp(30px,3vw,43px) Georgia,serif;margin:9px 0 0;color:#254c36}
+.menu-tabs{margin:18px 0 24px;gap:8px}
+.menu-tabs button{border:1px solid #dfc7b5;background:#fff5df;color:#254c36;border-radius:30px;padding:10px 15px;font-size:14px;letter-spacing:0}
+.menu-tabs button:hover{background:#f6dfb5}
+.menu-tabs button.active{background:#a64c55;color:white;border-color:#a64c55}
+.menu-display{min-height:280px}
+.menu-display .menu-grid{gap:0}
+.menu-display .menu-item{background:transparent;box-shadow:none;border:0;border-bottom:1px solid #e7d9c8;border-radius:0;padding:16px 12px}
+.menu-display .menu-item:first-child{border-top:1px solid #e7d9c8}
+.menu-display .menu-item h3{font-size:clamp(21px,1.65vw,26px);margin-bottom:5px}
+.menu-display .menu-item p{font-size:15px;line-height:1.4}
+.menu-display .menu-item .price{font-size:24px}
+.menu-visual{border-radius:8px;overflow:hidden}
+.menu-visual-fade{background:linear-gradient(90deg,#fffaf0 0%,rgba(255,250,240,.1) 42%,transparent 80%),linear-gradient(0deg,#fffaf0 0%,transparent 25%,transparent 80%,#fffaf0 100%)}
+.menu-frame .menu-note{color:#5b6558;font-size:12px;margin:20px 0 0}
+.menu-section .center{border:0;padding-top:0;margin-top:15px}
+.side-action{border-bottom-color:#e1cfa7}
+.side-divider{border-top-color:#dfc992}
+.sidebar-heading,.side-action,.side-categories a{color:#294936}
+.sidebar-footnote{color:#6b6043}
+@media(max-width:900px){
+ body.drawer-open{overflow:hidden;touch-action:none}
+ body.drawer-open .sidebar{overscroll-behavior:contain;overflow-y:auto;overflow-x:hidden;touch-action:pan-y;-webkit-overflow-scrolling:touch}
+ .sidebar{background:#fff0c8}
+ .menu-frame{padding:18px 15px}
+ .menu-frame-header{align-items:start}
+ .menu-frame-label{display:none}
+}
+@media(max-width:650px){.menu-display .menu-item{padding:16px 4px}.menu-frame{margin-top:25px;border-width:2px}.menu-tabs{gap:7px}.menu-tabs button{font-size:13px;padding:9px 12px}}
