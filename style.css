@@ -207,3 +207,25 @@ body,.header,.menu-frame{background:var(--cream)}
 .menu-tabs button{background:#ffedcf}
 .menu-tabs button:hover{background:#f6dfb5}
 @media(max-width:650px){.menu-visual-fade{background:linear-gradient(0deg,var(--cream),transparent 45%),linear-gradient(90deg,var(--cream),transparent 22%,transparent 80%,var(--cream))}}
+
+/* V9: enforce cream consistently on desktop and red selected menu text on mobile */
+:root{--cream:#fff6e7;--paper:#fff6e7}
+@media(min-width:901px){
+  html,body,.header,.intro,.story,.menu-frame,.menu-display,.menu-tabs,.menu-frame-header{background-color:var(--cream)}
+  .menu-section{background-color:var(--deep)}
+  .sidebar,.visit,.gift-section,.story-card{background-color:var(--soft-yellow)}
+  .menu-tabs{background:transparent}
+  .menu-display{background:transparent}
+  .menu-frame-header{background:transparent}
+  .menu-item{background:transparent}
+  .hero{background-color:var(--deep)}
+  .hero-title,.hero-name-first,.hero-tagline,.hero-sub{color:var(--cream)}
+  .hero-name-last{color:#d98b90}
+  .btn.primary,.nav-order,.ticker,.topline,footer{color:var(--cream)}
+}
+@media(max-width:900px){
+  .menu-tabs button.active{background:var(--cream);color:#a64c55!important;border:2px solid #a64c55;font-weight:900}
+  .menu-tabs button.active .menu-category-icon{color:#a64c55;stroke:#a64c55}
+  .side-categories a.selected,.side-categories a[aria-current="true"]{background:var(--cream);color:#a64c55!important;box-shadow:inset 3px 0 #a64c55}
+  .side-categories a.selected .menu-category-icon,.side-categories a[aria-current="true"] .menu-category-icon{stroke:#a64c55}
+}
