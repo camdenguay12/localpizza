@@ -3,7 +3,7 @@
   "shortName": "NEW ENGLAND PIZZA",
   "tagline": "PIZZA & SUBS",
   "address": "Your New England town, NH",
-  "hours": "Mon–Sat: Hours coming soon\\nSun: Hours coming soon",
+  "hours": "Mon–Thu: 11:00 AM – 9:00 PM\\nFri–Sat: 11:00 AM – 10:00 PM\\nSun: 12:00 PM – 8:00 PM",
   "phone": "(603) 555-0142",
   "orderUrl": "",
   "story": "We're the neighborhood spot for post-game dinners, family Fridays, and catching up with old friends. Around here, everyone is welcome and no one leaves hungry.",
@@ -362,5 +362,43 @@
       ]
     }
   ],
-  "giftCardUrl": ""
+  "giftCardUrl": "",
+  "openingHours": [
+    {
+      "day": "Monday",
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Tuesday",
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Wednesday",
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Thursday",
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Friday",
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": "Saturday",
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": "Sunday",
+      "open": "12:00",
+      "close": "20:00"
+    }
+  ],
+  "timeZone": "America/New_York"
 }
