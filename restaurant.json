@@ -1,0 +1,97 @@
+{
+  "name": "Harbor & Hearth Pizza",
+  "shortName": "HARBOR & HEARTH",
+  "tagline": "PIZZA & SUBS",
+  "address": "Your New England town, NH",
+  "hours": "Mon–Sat: Hours coming soon\\nSun: Hours coming soon",
+  "phone": "",
+  "orderUrl": "",
+  "story": "We're the neighborhood spot for post-game dinners, family Fridays, and catching up with old friends. Around here, everyone is welcome and no one leaves hungry.",
+  "menu": [
+    {
+      "category": "Pizza",
+      "items": [
+        {
+          "name": "Classic Cheese",
+          "description": "Red sauce, whole-milk mozzarella, golden crust.",
+          "price": "$13.99"
+        },
+        {
+          "name": "The Pepperoni",
+          "description": "Classic cheese pie piled with pepperoni.",
+          "price": "$16.99"
+        },
+        {
+          "name": "The New Englander",
+          "description": "Sausage, peppers, onions, and mozzarella.",
+          "price": "$18.99"
+        },
+        {
+          "name": "Garden Special",
+          "description": "Mushrooms, onions, peppers, olives, and tomatoes.",
+          "price": "$18.99"
+        }
+      ]
+    },
+    {
+      "category": "Subs",
+      "items": [
+        {
+          "name": "Steak & Cheese",
+          "description": "Griddled steak, melted cheese, toasted roll.",
+          "price": "$12.99"
+        },
+        {
+          "name": "Italian Cold Cut",
+          "description": "Salami, ham, provolone, lettuce, tomato, and dressing.",
+          "price": "$11.99"
+        },
+        {
+          "name": "Chicken Parm",
+          "description": "Crispy chicken, marinara, mozzarella.",
+          "price": "$12.99"
+        },
+        {
+          "name": "Meatball Sub",
+          "description": "Homestyle meatballs, marinara, melted cheese.",
+          "price": "$11.99"
+        }
+      ]
+    },
+    {
+      "category": "Sides",
+      "items": [
+        {
+          "name": "Garlic Knots",
+          "description": "Warm, buttery, and ready for dipping.",
+          "price": "$6.99"
+        },
+        {
+          "name": "Mozzarella Sticks",
+          "description": "Golden and served with marinara.",
+          "price": "$8.99"
+        },
+        {
+          "name": "Garden Salad",
+          "description": "Fresh greens and seasonal vegetables.",
+          "price": "$7.99"
+        }
+      ]
+    },
+    {
+      "category": "Drinks",
+      "items": [
+        {
+          "name": "Fountain Soda",
+          "description": "Refreshing classics.",
+          "price": "$2.99"
+        },
+        {
+          "name": "Bottled Water",
+          "description": "Chilled and ready to go.",
+          "price": "$1.99"
+        }
+      ]
+    }
+  ]
+}
