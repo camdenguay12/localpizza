@@ -1,6 +1,6 @@
 # Local Pizza — reusable restaurant website template
 
-A mobile-first, New England neighborhood pizza and sub shop demo.
+A mobile-first, New England neighborhood pizza and sub shop demo using scarlet red, dark green and cream, with a sample pizza-slice SVG logo and sample phone number.
 
 ## Customize for a client
 1. Edit `restaurant.json` to update restaurant name, address, phone, hours, story, menu categories, items and prices.
@@ -18,4 +18,4 @@ Static HTML/CSS/JS; no build process. Compatible with a static host. If using Gi
 - `script.js`: loads restaurant config, builds menu and navigation
 - `restaurant.json`: all restaurant-specific content
 
-**Demo only:** Harbor & Hearth Pizza is a fictional placeholder brand. Menu prices and hours are illustrative, not factual. Photos are externally hosted examples and should be replaced with licensed client imagery before selling.
+**Demo only:** New England Pizza is a fictional placeholder brand. Menu prices and hours are illustrative, not factual. Photos are externally hosted examples and should be replaced with licensed client imagery before selling.
