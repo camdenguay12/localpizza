@@ -134,3 +134,19 @@ section[id],h3[id]{scroll-margin-top:110px}
 .optional-section[hidden]{display:none!important}
 @media(max-width:900px){.menu-display{grid-template-columns:minmax(0,1fr) 35%}.menu-visual{min-height:300px}}
 @media(max-width:650px){.menu-display{display:flex;flex-direction:column-reverse}.menu-visual{height:210px;min-height:210px;background-position:center 50%}.menu-visual-fade{background:linear-gradient(0deg,var(--deep),transparent 45%),linear-gradient(90deg,var(--deep),transparent 22%,transparent 80%,var(--deep))}.menu-display .menu-grid{margin-top:8px}}
+
+/* V6: breathing room below menu and correctly layered mobile drawer */
+.menu-section{padding-bottom:85px}
+.menu-display{margin-bottom:28px}
+.menu-note{margin-top:24px;margin-bottom:20px}
+.menu-section .center{margin-top:22px;padding-top:28px;border-top:1px solid rgba(255,250,240,.3)}
+.menu-section::after{content:"";display:block;height:10px;margin-top:55px;background:linear-gradient(90deg,transparent,rgba(255,250,240,.5),transparent);border-radius:50%}
+@media(max-width:900px){
+  .topline{position:sticky;top:0;z-index:60;min-height:38px;align-items:center}
+  .header{position:sticky;top:38px;z-index:55}
+  .sidebar{position:fixed;top:114px;bottom:0;height:calc(100dvh - 114px);z-index:50;overflow-y:auto}
+  .menu-section{padding-bottom:65px}
+  .menu-section::after{margin-top:35px}
+  section[id],h3[id]{scroll-margin-top:125px}
+}
+@media(max-width:600px){.topline{min-height:38px}.sidebar{top:114px;height:calc(100dvh - 114px)}}
