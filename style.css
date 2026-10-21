@@ -32,3 +32,68 @@ h1{font-size:clamp(60px,7vw,108px)}
 @media(max-width:1100px) and (min-width:801px){.brand{font-size:23px}.pizza-logo{width:42px;height:42px}.header nav a{font-size:12px}.header nav{gap:12px}.nav-order{padding:14px}}
 @media(max-width:800px){.topline{justify-content:space-between;font-size:10px;padding:9px 4%}.topline span:last-child{display:initial}.top-phone{font-size:13px}.header{height:76px}.brand{font-size:clamp(19px,5vw,26px)}.brand small{font-size:10px}.pizza-logo{width:38px;height:38px}.header nav{top:76px}.header nav a{font-size:17px}.eyebrow{font-size:13px;letter-spacing:1px}.hero-sub{font-size:18px}.intro p,.story p,.feature p,.section-heading>p{font-size:18px}.ticker{font-size:10px}.btn{font-size:14px}.menu-item p{font-size:16px}.menu-item h3{font-size:24px}.footer-brand{font-size:33px}.story-card .pizza-logo{width:95px;height:95px}}
 @media(max-width:420px){.topline{gap:6px}.topline span:first-child{font-size:9px;letter-spacing:0}.top-phone{font-size:12px}.brand{font-size:20px}.brand small{letter-spacing:1.5px}.hero h1{font-size:clamp(48px,13vw,58px)}.intro h2,.section h2,.feature h2{font-size:clamp(43px,11vw,52px)}.menu-item h3{font-size:21px}}
+
+/* V3: soft vintage New England palette and accessible contrast */
+:root{--green:#a9cf9f;--cream:#fffaf0;--orange:#b95056;--ink:#203b2b;--deep:#254c36;--sand:#e9e0cf}
+body{color:var(--ink);background:var(--cream)}
+.topline{background:var(--deep);color:#fff}
+.header{position:sticky;top:0;z-index:30;background:var(--cream);border-bottom:2px solid #bfd5b8;justify-content:space-between}
+.header nav{margin-left:auto}
+.header nav a{color:var(--deep)}
+.header nav .nav-order{color:#fff;background:var(--orange)}
+.brand{font-family:"Roboto Slab",Georgia,serif;font-weight:900;letter-spacing:-1px;color:var(--deep);font-size:clamp(22px,2.1vw,34px)}
+.brand small{font-family:"DM Sans",sans-serif;letter-spacing:2px}
+.brand .pizza-logo path:nth-child(2){stroke:#b95056}
+.pizza-logo circle{fill:#b95056}
+.layout-shell{display:grid;grid-template-columns:252px minmax(0,1fr);align-items:stretch}
+.layout-shell main{min-width:0}
+.sidebar{background:#e6f0dd;border-right:2px solid #c4d8bc;padding:34px 17px;position:sticky;top:98px;height:calc(100vh - 98px);overflow-y:auto;align-self:start}
+.sidebar-heading{font-size:13px;letter-spacing:1.3px;font-weight:900;color:var(--deep);margin:8px 10px 15px}
+.side-action,.side-categories a{display:block;padding:13px 12px;border-radius:6px;font-weight:800;color:var(--deep);font-size:15px;line-height:1.3}
+.side-action:hover,.side-categories a:hover,.side-categories a.selected{background:var(--deep);color:white}
+.side-action{border-bottom:1px solid #c9dec3}
+.side-divider{border-top:2px solid #c5d9be;margin:22px 5px}
+.side-categories a{font-size:15px;font-weight:700}
+.sidebar-footnote{font-size:11px;letter-spacing:1.2px;line-height:1.7;color:#46664f;margin:30px 10px}
+.hero{justify-content:center;text-align:center;min-height:690px;padding:85px 4%;background-position:center}
+.hero-overlay{background:linear-gradient(90deg,rgba(12,35,24,.80),rgba(12,35,24,.65))}
+.hero-content{max-width:1050px;width:100%}
+.hero-title{font-family:"Roboto Slab",Georgia,serif;font-weight:900;font-size:clamp(55px,6.3vw,112px);line-height:1.02;letter-spacing:-3px;color:#fffaf0;text-shadow:0 5px 22px #10261c}
+.hero-title span{color:#cfe8c6}
+.hero-tagline{font-family:Oswald,sans-serif;font-size:clamp(25px,2.6vw,42px);letter-spacing:1.5px;color:#fffaf0;margin:24px 0 16px;line-height:1.2}
+.hero-tagline em{color:#f8d5d3;font-style:normal}
+.hero-sub{max-width:680px;margin:0 auto;font-size:clamp(18px,1.5vw,23px);color:#fff}
+.hero .actions{justify-content:center}
+.eyebrow{color:#ffe7df}
+.eyebrow.green{color:#a43b45}
+h1 em,h2 em{color:#9d3946}
+.menu-section{background:var(--deep);color:#fffaf0}
+.menu-section h2 em{color:#e8b1b1}
+.menu-tabs button{border-color:#bdd1c0;color:#fffaf0}
+.menu-tabs button.active{background:var(--orange);border-color:var(--orange);color:#fff}
+.menu-item{border-color:#8ba997}
+.menu-item p{color:#e2ebe3}
+.price{color:#ffe4de}
+.menu-note{color:#e5ece3}
+.ticker{background:var(--orange);color:#fff}
+.feature-copy{background:var(--orange);color:#fff}
+.feature-copy h2 em{color:#fff2ec}
+.feature-copy .eyebrow{color:#fff1e9}
+.feature-copy p{color:#fff}
+.feature-copy .btn{color:var(--deep)}
+.btn.primary{background:var(--orange);color:white}
+.btn.outline{border-color:var(--deep);color:var(--deep)}
+.story-card{background:#e9f1e1;border-color:#b6d1ac}
+.visit{background:#e7f0df}
+.map-panel{background:var(--deep)}
+footer{background:var(--deep)}
+.gift-section{background:#d5e8ce;color:var(--deep);text-align:center}
+.gift-section>div{max-width:720px;margin:auto}
+.gift-section p:not(.eyebrow){font-size:20px;line-height:1.7}
+.gift-section .eyebrow{color:#923642}
+.gift-section .btn{background:var(--deep);color:white}
+.gift-section h2 em{color:#a83f4a}
+section[id],h3[id]{scroll-margin-top:110px}
+@media(max-width:1200px){.layout-shell{grid-template-columns:220px minmax(0,1fr)}.sidebar{padding:24px 10px}.hero-title{font-size:clamp(52px,6vw,90px)}}
+@media(max-width:900px){.layout-shell{display:block}.sidebar{position:fixed;top:76px;bottom:0;left:0;width:min(310px,86vw);height:auto;z-index:25;transform:translateX(-105%);transition:transform .2s ease;box-shadow:5px 0 20px #0002}.sidebar.open{transform:translateX(0)}.header nav{display:none}.hamburger{display:block;font-size:16px;font-weight:900;color:var(--deep);padding:12px;border:1px solid #b4cdb0;border-radius:4px}.hero{min-height:610px}.hero-title{font-size:clamp(45px,9vw,88px)}.header{height:76px}.brand{font-size:clamp(18px,4vw,28px)}}
+@media(max-width:600px){.hero{min-height:570px;padding:70px 5%}.hero-title{font-size:clamp(42px,10.5vw,62px);letter-spacing:-1.7px}.hero-tagline{font-size:clamp(22px,5.8vw,30px);letter-spacing:.3px}.hero-sub{font-size:17px}.topline span:first-child{font-size:9px}.top-phone{font-size:12px}.header{padding:0 4%}.brand{gap:6px;font-size:clamp(16px,4.5vw,22px)}.brand small{font-size:9px}.brand .pizza-logo{width:34px;height:34px}.section h2{font-size:clamp(42px,9vw,58px)}.gift-section p:not(.eyebrow){font-size:18px}}
