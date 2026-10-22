@@ -118,3 +118,30 @@ body.checkout-open{overflow:hidden}
 @media(max-width:900px){#home.hero{min-height:calc(100dvh - 79px)!important}#home .hero-photo-zone{min-height:340px;padding:35px 3% 90px}#home .home-welcome{padding:0 5% 55px}#home .home-details{gap:12px}#home .home-detail{padding-left:13px}}
 @media(max-width:600px){#home.hero{min-height:calc(100dvh - 74px)!important}#home .hero-photo-zone{min-height:270px;padding:35px 3% 65px}#home .hero-lockup .pizza-logo{height:108px;width:75px}#home .home-welcome{margin-top:-4px;padding:0 7% 45px}#home .welcome-kicker{font-size:10px;letter-spacing:1.5px}#home .home-welcome h2{font-size:clamp(31px,8vw,44px)}#home .welcome-copy{font-size:16px;margin-bottom:27px}#home .home-details{grid-template-columns:1fr;gap:20px;margin-bottom:29px;text-align:left}#home .home-detail{padding:1px 0 1px 17px}#home .home-detail>span:not(.open-status){font-size:11px;margin-bottom:6px}#home .home-detail p{font-size:17px}#home .home-menu-btn{padding:16px 24px}}
 @media(prefers-reduced-motion:reduce){#home .hero-photo-zone::before{transform:none!important}}
+
+/* V15: compact mobile hero and stable, subtle photo parallax */
+#home .hero-photo-zone{min-height:0!important;height:clamp(260px,31vw,420px)!important;padding:28px 4% 56px!important;overflow:hidden}
+#home .hero-photo-zone::before{inset:-24px 0!important;transform:translate3d(0,var(--hero-parallax,0px),0) scale(1.04)!important;will-change:transform}
+#home .hero-photo-zone::after{background:linear-gradient(180deg,rgba(19,15,11,.69) 0%,rgba(19,15,11,.51) 35%,rgba(30,21,15,.42) 60%,rgba(255,241,220,.45) 80%,#fff1dc 100%)}
+#home .hero-lockup{max-width:100%;margin:0!important;position:relative;z-index:1}
+#home .home-welcome{margin:0 auto!important;padding-top:12px!important}
+#home .welcome-kicker{line-height:1.6;margin-bottom:10px}
+@media(max-width:900px){
+ #home .hero-photo-zone{height:290px!important;padding:20px 4% 50px!important}
+ #home .hero-lockup .pizza-logo{height:110px!important;width:78px!important}
+ #home .hero-title{font-size:clamp(30px,5.8vw,55px)!important}
+ #home .home-welcome{padding-top:6px!important}
+}
+@media(max-width:600px){
+ #home .hero-photo-zone{height:225px!important;padding:18px 3% 43px!important}
+ #home .hero-lockup{gap:6px!important;align-items:center!important}
+ #home .hero-lockup .pizza-logo{height:87px!important;width:61px!important}
+ #home .hero-title{font-size:clamp(24px,6.7vw,40px)!important;line-height:.92!important}
+ #home .hero-brand-caption{font-size:clamp(7px,1.9vw,10px)!important;letter-spacing:1px!important}
+ #home .home-welcome{padding:0 6% 40px!important}
+ #home .welcome-kicker{font-size:10px!important;letter-spacing:1px!important;margin:0 auto 10px!important;max-width:330px}
+ #home .home-welcome h2{font-size:clamp(30px,7.8vw,42px)!important;line-height:1.07!important;margin-bottom:12px!important}
+ #home .welcome-copy{margin-bottom:22px!important;font-size:15px!important;line-height:1.5!important}
+ #home .home-details{gap:16px!important;margin-bottom:23px!important}
+}
+@media(prefers-reduced-motion:reduce){#home .hero-photo-zone::before{transform:none!important;will-change:auto}}
