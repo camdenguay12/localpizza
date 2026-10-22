@@ -145,3 +145,14 @@ body.checkout-open{overflow:hidden}
  #home .home-details{gap:16px!important;margin-bottom:23px!important}
 }
 @media(prefers-reduced-motion:reduce){#home .hero-photo-zone::before{transform:none!important;will-change:auto}}
+
+/* V16: move the welcome kicker away from the photo seam and scroll-fade the hero */
+#home .home-welcome{padding-top:35px!important}
+#home .welcome-kicker{display:inline-block;position:relative;z-index:2;margin:0 auto 19px!important;padding:7px 0;color:#a62e2b;line-height:1.5}
+#home .hero-photo-zone{--photo-fade:0;position:relative}
+#home .hero-photo-zone::after{background:linear-gradient(180deg,rgba(19,15,11,.70) 0%,rgba(19,15,11,.48) 39%,rgba(30,21,15,.32) 62%,rgba(255,241,220,.68) 84%,#fff1dc 100%);opacity:1}
+#home .hero-photo-zone::before{opacity:calc(1 - var(--photo-fade,0) * .38);transition:opacity .12s linear}
+#home .hero-photo-zone{background:linear-gradient(180deg,#292019 0%,#fff1dc 100%)}
+@media(max-width:900px){#home .home-welcome{padding-top:27px!important}}
+@media(max-width:600px){#home .home-welcome{padding-top:24px!important}#home .welcome-kicker{display:block;margin:0 auto 17px!important;padding:0 8px;font-size:10px!important;line-height:1.7;max-width:340px}}
+@media(prefers-reduced-motion:reduce){#home .hero-photo-zone::before{opacity:1!important;transition:none!important}}
